@@ -7,7 +7,7 @@ app = Flask(__name__)
 def guess_game():
     """
     Main part of the program that is guessing user's number.
-    User hints computer if it's too small or too big, user musn't cheat.
+    User hints computer if it's too small or too big, user mustn't cheat.
     :return: The user's guessed number.
     """
     start_form = """
